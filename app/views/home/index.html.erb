@@ -1,0 +1,7 @@
+<h2>Welcome. Please enter teh infos </h2>
+<%= simple_form_for @attendee do |f| %>
+  <%= f.error_notification %>
+  <%= f.name %>
+  <%= f.email %>
+  <%= f.task %>
+<% end %>
